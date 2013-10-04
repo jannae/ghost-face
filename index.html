@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Headtracker JS Example</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="headtrackr.js"></script>
+    <style>
+
+    </style>
+    <!--[if lt IE 9]>
+          <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <div id="hdr">
+        <h1>http://jann.ae/ghost</h1>
+    </div>
+    <div id="mainContent">
+        <canvas id="canvasIn" width="320" height="240"></canvas>
+        <!-- /#canvasIn -->
+        <video id="videoIn" width="320" height="240" autoplay loop></video>
+        <!-- /#videoIn -->
+        <canvas id="canvasFull"></canvas>
+        <!-- /#canvasFull -->
+        <canvas id="canvasDraw"></canvas>
+        <!-- /#canvasDraw -->
+        <noscript>
+            <p>JavaScript is required to view the contents of this page.</p>
+        </noscript>
+    </div>
+    <div id="sources"><a href="https://github.com/jannae/faceit/ghost">Github Source</a> | Built with <a href="https://github.com/auduno/headtrackr" title="Headtrackr.js">headtrackr.js</a> and <a href="http://jquery.com/" title="jQuery">jQuery</a>
+    </div>
+    <!-- /#sources -->
+    <!-- /#mainContent -->
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
