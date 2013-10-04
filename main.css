@@ -66,6 +66,9 @@ BODY {
 #canvasDraw{
     position: absolute;
     -webkit-filter: blur(5px) grayscale(1) invert(1) opacity(0.7) hue-rotate(150deg);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
 }
 #canvasFull {
     position: absolute;
